@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_bootstrap'
-  s.version     = '2.3.0'
+  s.version     = '2.4.0'
   s.summary     = 'Spree Frontend with Twitter Bootstrap'
   s.description = 'Spree Frontend with Twitter Bootstrap'
   s.required_ruby_version = '>= 1.9.3'
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'bootstrap-sass', '~> 2.3.1.0'
   s.add_dependency 'font-awesome-rails'
   s.add_dependency 'spree_api'
-  s.add_dependency 'spree_core', '~> 2.3.0'
+  s.add_dependency 'spree_core', '~> 2.4.0'
   s.add_dependency 'spree_frontend'
 
   s.add_development_dependency 'capybara', '~> 1.1'
